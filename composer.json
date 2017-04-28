@@ -1,0 +1,21 @@
+{
+    "name": "cmzz/laravel-request-id",
+    "description": "RequestId middleware for Laravel;",
+    "license": "MIT",
+    "keywords": ["laravel", "request-id", "requestId"],
+    "authors": [
+        {
+            "name": "wuzhuo",
+            "email": "me19@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "ramsey/uuid": "^3.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cmzz\\RequestId\\": "src/"
+        }
+    }
+}
